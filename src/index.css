@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.adjustMargin{
+    @apply mt-[30%] md:mt-[15%] lg:mt-[8%]
+}
+
+.projectCardLayout{
+    display: grid;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+}
+
+.featuresContainer{
+    display: grid;
+    grid-template-rows: repeat(2 , 1fr);  
+}
