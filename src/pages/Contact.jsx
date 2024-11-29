@@ -45,7 +45,7 @@ function Contact() {
     }
   ]
   return (
-    <MainContainer className="bg-bgColor p-5">
+    <MainContainer className="bg-gradient-to-br from-bgColor to-transparentBgColor p-5">
       <SubContainer className='backdrop-blur-xl w-full md:min-w-[75%] rounded-xl shadow-2xl shadow-buttonHighligths border flex flex-col items-start justify-evenly px-[10%]'>
         <p className='text-4xl font-mono font-bold text-textColor underline'>Contact Me</p>
         {

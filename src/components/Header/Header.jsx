@@ -5,7 +5,7 @@ import { IoClose } from "react-icons/io5";
 
 function Header({pageRefs = []}) {
   let [isOpen , setIsOpen] = useState(false)
-  let navElements = ["Home" , "About" , "Skills" , "Experience" , "Contact"]
+  let navElements = ["Home" , "Experience" , "Skills", "Education"  ,  "Contact"]
   function toggleHeader(){
     setIsOpen((preValue) => !preValue)
   }

@@ -11,6 +11,12 @@ function Experience() {
       link:"https://tectovia.in/"      
     } ,
     {
+      projectName : "A simple blog app", 
+      coreFeatures : ["Real time editors using TinyMCE" , "Serverless project with Appwrite"] , 
+      otherFeatures : ["Appwrite server" , "Highly optimized code"] , 
+      link:"https://github.com/Purushothaman2910/Puru-blogs"      
+    },
+    {
       projectName : "Nucaza innovations Pvt. Ltd.", 
       coreFeatures : ["Official website of the company" , "Single page application"] , 
       otherFeatures : ["Real tme mail communicatioin" , "A complete SPA"] , 

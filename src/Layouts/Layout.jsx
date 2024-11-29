@@ -6,19 +6,19 @@ function Layout() {
   let [homeRef , AboutRef , SkillsRef , ExperienceRef , ContactRef] = [useRef(null) , useRef(null) , useRef(null) , useRef(null) , useRef(null)]
   return (
     <div className='min-h-screen min-w-full '>
-        <Header pageRefs={[homeRef , AboutRef , SkillsRef , ExperienceRef , ContactRef]}/>
+        <Header pageRefs={[homeRef ,ExperienceRef , SkillsRef ,  AboutRef , ContactRef]}/>
         <main>
           <div ref={homeRef}>            
                 <Home />
           </div>
-          <div ref={AboutRef}>            
-                <About />
+          <div ref={ExperienceRef}>            
+                <Experience />
           </div>
           <div ref={SkillsRef}>            
                 <Skills />
           </div>
-          <div ref={ExperienceRef}>            
-                <Experience />
+          <div ref={AboutRef}>            
+                <About />
           </div>
           <div ref={ContactRef}>            
                 <Contact />

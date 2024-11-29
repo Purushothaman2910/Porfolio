@@ -16,7 +16,7 @@ function About() {
     }
   ]
   return (
-    <MainContainer className="bg-gradient-to-bl from-buttonHighligths to-bgColor">
+    <MainContainer className="bg-gradient-to-bl from-transparentBgColor to-bgColor">
       <SubContainer className="w-full">
         <div>
           <p className="text-4xl font-mono font-bold text-textColor">
